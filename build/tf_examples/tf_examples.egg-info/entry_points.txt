@@ -1,0 +1,3 @@
+[console_scripts]
+odom_broadcaster = tf_examples.odom_broadcaster:main
+transform_listener = tf_examples.transform_listener:main

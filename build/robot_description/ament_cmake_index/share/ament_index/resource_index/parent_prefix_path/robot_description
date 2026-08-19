@@ -1,0 +1,1 @@
+/root/workspaces/my_robot_ws/install/tf_examples:/root/workspaces/my_robot_ws/install/robot_description:/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy

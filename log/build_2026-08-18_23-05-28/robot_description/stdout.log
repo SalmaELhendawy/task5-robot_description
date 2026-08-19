@@ -1,0 +1,12 @@
+-- Install configuration: ""
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/urdf
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/urdf/robot.gazebo.xacro
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/meshes
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/meshes/zed.stl
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/meshes/lidar.STL
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/launch
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/launch/display.launch.py
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/config
+-- Up-to-date: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/config/gz_bridge.yaml

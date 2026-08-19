@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000159] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000197] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.060660] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.090483] (-) TimerEvent: {}
+[0.142858] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/root/workspaces/my_robot_ws/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/root/workspaces/my_robot_ws/install/robot_description'], 'cwd': '/root/workspaces/my_robot_ws/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ACTIVE_WS_PATH': '/root/workspaces/turtlebot_ws', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'SUPERVISOR_GROUP_NAME': 'ttyd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ip-172-31-40-61.eu-central-1.compute.internal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'EFS_PATH': '/workspaces/3db0c745-3388-4cae-b540-f5b0310cda5e', 'OLDPWD': '/root/workspaces', 'ROS_PYTHON_VERSION': '3', 'AWS_CONTAINER_CREDENTIALS_RELATIVE_URI': '/v2/credentials/2fa0b5c0-fa6c-4694-8d78-6f2dee51c169', 'AWS_EXECUTION_ENV': 'AWS_ECS_FARGATE', 'COLCON_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install', 'ECS_AGENT_URI': 'http://169.254.170.2/api/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'ROS_DISTRO': 'jazzy', 'AWS_DEFAULT_REGION': 'eu-central-1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ECS_CONTAINER_METADATA_URI_V4': 'http://169.254.170.2/v4/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'TERM': 'xterm-256color', 'ECS_CONTAINER_METADATA_URI': 'http://169.254.170.2/v3/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'SESSION_UUID': '3db0c745-3388-4cae-b540-f5b0310cda5e', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ACTIVE_WS_NAME': 'turtlebot_ws', 'AWS_REGION': 'eu-central-1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'ttyd', 'PWD': '/root/workspaces/my_robot_ws/build/robot_description', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.199820] (-) TimerEvent: {}
+[0.300045] (-) TimerEvent: {}
+[0.400332] (-) TimerEvent: {}
+[0.438723] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.500562] (-) TimerEvent: {}
+[0.600866] (-) TimerEvent: {}
+[0.680526] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.700962] (-) TimerEvent: {}
+[0.751573] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801075] (-) TimerEvent: {}
+[0.901369] (-) TimerEvent: {}
+[1.001657] (-) TimerEvent: {}
+[1.101922] (-) TimerEvent: {}
+[1.202176] (-) TimerEvent: {}
+[1.302445] (-) TimerEvent: {}
+[1.402749] (-) TimerEvent: {}
+[1.503086] (-) TimerEvent: {}
+[1.565725] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.577568] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.579862] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.580006] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.603172] (-) TimerEvent: {}
+[1.650860] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.703277] (-) TimerEvent: {}
+[1.803554] (-) TimerEvent: {}
+[1.903843] (-) TimerEvent: {}
+[2.004104] (-) TimerEvent: {}
+[2.104399] (-) TimerEvent: {}
+[2.204694] (-) TimerEvent: {}
+[2.304978] (-) TimerEvent: {}
+[2.405252] (-) TimerEvent: {}
+[2.415035] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.427449] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.428914] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.429009] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.505345] (-) TimerEvent: {}
+[2.532842] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.605453] (-) TimerEvent: {}
+[2.705756] (-) TimerEvent: {}
+[2.806169] (-) TimerEvent: {}
+[2.812075] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.906280] (-) TimerEvent: {}
+[3.006683] (-) TimerEvent: {}
+[3.106974] (-) TimerEvent: {}
+[3.207248] (-) TimerEvent: {}
+[3.307524] (-) TimerEvent: {}
+[3.407834] (-) TimerEvent: {}
+[3.508131] (-) TimerEvent: {}
+[3.608419] (-) TimerEvent: {}
+[3.685237] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.708509] (-) TimerEvent: {}
+[3.808774] (-) TimerEvent: {}
+[3.909035] (-) TimerEvent: {}
+[4.009312] (-) TimerEvent: {}
+[4.109619] (-) TimerEvent: {}
+[4.209928] (-) TimerEvent: {}
+[4.310201] (-) TimerEvent: {}
+[4.389830] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.390024] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[4.410273] (-) TimerEvent: {}
+[4.411381] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.426772] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.478623] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.510367] (-) TimerEvent: {}
+[4.610601] (-) TimerEvent: {}
+[4.628261] (robot_description) StdoutLine: {'line': b'-- Configuring done (4.4s)\n'}
+[4.710704] (-) TimerEvent: {}
+[4.810970] (-) TimerEvent: {}
+[4.911244] (-) TimerEvent: {}
+[5.011534] (-) TimerEvent: {}
+[5.111821] (-) TimerEvent: {}
+[5.127781] (robot_description) StdoutLine: {'line': b'-- Generating done (0.5s)\n'}
+[5.211930] (-) TimerEvent: {}
+[5.312208] (-) TimerEvent: {}
+[5.359015] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /root/workspaces/my_robot_ws/build/robot_description\n'}
+[5.363728] (robot_description) CommandEnded: {'returncode': 0}
+[5.365229] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[5.367002] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/workspaces/my_robot_ws/build/robot_description', '--', '-j4', '-l4'], 'cwd': '/root/workspaces/my_robot_ws/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ACTIVE_WS_PATH': '/root/workspaces/turtlebot_ws', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'SUPERVISOR_GROUP_NAME': 'ttyd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ip-172-31-40-61.eu-central-1.compute.internal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'EFS_PATH': '/workspaces/3db0c745-3388-4cae-b540-f5b0310cda5e', 'OLDPWD': '/root/workspaces', 'ROS_PYTHON_VERSION': '3', 'AWS_CONTAINER_CREDENTIALS_RELATIVE_URI': '/v2/credentials/2fa0b5c0-fa6c-4694-8d78-6f2dee51c169', 'AWS_EXECUTION_ENV': 'AWS_ECS_FARGATE', 'COLCON_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install', 'ECS_AGENT_URI': 'http://169.254.170.2/api/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'ROS_DISTRO': 'jazzy', 'AWS_DEFAULT_REGION': 'eu-central-1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ECS_CONTAINER_METADATA_URI_V4': 'http://169.254.170.2/v4/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'TERM': 'xterm-256color', 'ECS_CONTAINER_METADATA_URI': 'http://169.254.170.2/v3/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'SESSION_UUID': '3db0c745-3388-4cae-b540-f5b0310cda5e', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ACTIVE_WS_NAME': 'turtlebot_ws', 'AWS_REGION': 'eu-central-1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'ttyd', 'PWD': '/root/workspaces/my_robot_ws/build/robot_description', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.412311] (-) TimerEvent: {}
+[5.436163] (robot_description) CommandEnded: {'returncode': 0}
+[5.440747] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[5.457807] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/workspaces/my_robot_ws/build/robot_description'], 'cwd': '/root/workspaces/my_robot_ws/build/robot_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'ACTIVE_WS_PATH': '/root/workspaces/turtlebot_ws', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'SUPERVISOR_GROUP_NAME': 'ttyd', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'ip-172-31-40-61.eu-central-1.compute.internal', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'EFS_PATH': '/workspaces/3db0c745-3388-4cae-b540-f5b0310cda5e', 'OLDPWD': '/root/workspaces', 'ROS_PYTHON_VERSION': '3', 'AWS_CONTAINER_CREDENTIALS_RELATIVE_URI': '/v2/credentials/2fa0b5c0-fa6c-4694-8d78-6f2dee51c169', 'AWS_EXECUTION_ENV': 'AWS_ECS_FARGATE', 'COLCON_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install', 'ECS_AGENT_URI': 'http://169.254.170.2/api/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'ROS_DISTRO': 'jazzy', 'AWS_DEFAULT_REGION': 'eu-central-1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ECS_CONTAINER_METADATA_URI_V4': 'http://169.254.170.2/v4/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'TERM': 'xterm-256color', 'ECS_CONTAINER_METADATA_URI': 'http://169.254.170.2/v3/9442b20eafe8412a9c8f29e06957fc2e-1842134484', 'SESSION_UUID': '3db0c745-3388-4cae-b540-f5b0310cda5e', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ACTIVE_WS_NAME': 'turtlebot_ws', 'AWS_REGION': 'eu-central-1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'ttyd', 'PWD': '/root/workspaces/my_robot_ws/build/robot_description', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/workspaces/turtlebot_ws/install/warehouse_world:/root/workspaces/turtlebot_ws/install/turtlebot3_simulations:/root/workspaces/turtlebot_ws/install/turtlebot3_gazebo:/root/workspaces/turtlebot_ws/install/turtlebot3_fake_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.477886] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.479065] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/urdf\n'}
+[5.504922] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/urdf/robot.urdf.xacro\n'}
+[5.512378] (-) TimerEvent: {}
+[5.541349] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/meshes\n'}
+[5.560508] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/meshes/zed.stl\n'}
+[5.612503] (-) TimerEvent: {}
+[5.655644] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/meshes/lidar.STL\n'}
+[5.712604] (-) TimerEvent: {}
+[5.812899] (-) TimerEvent: {}
+[5.913172] (-) TimerEvent: {}
+[6.013452] (-) TimerEvent: {}
+[6.113724] (-) TimerEvent: {}
+[6.213998] (-) TimerEvent: {}
+[6.314273] (-) TimerEvent: {}
+[6.414563] (-) TimerEvent: {}
+[6.514845] (-) TimerEvent: {}
+[6.615131] (-) TimerEvent: {}
+[6.715396] (-) TimerEvent: {}
+[6.815671] (-) TimerEvent: {}
+[6.915934] (-) TimerEvent: {}
+[7.016223] (-) TimerEvent: {}
+[7.116503] (-) TimerEvent: {}
+[7.216777] (-) TimerEvent: {}
+[7.317053] (-) TimerEvent: {}
+[7.417332] (-) TimerEvent: {}
+[7.517635] (-) TimerEvent: {}
+[7.617916] (-) TimerEvent: {}
+[7.688419] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/launch\n'}
+[7.703634] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[7.718002] (-) TimerEvent: {}
+[7.758286] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[7.805945] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[7.818082] (-) TimerEvent: {}
+[7.847385] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[7.881915] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[7.916235] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[7.918154] (-) TimerEvent: {}
+[7.950186] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[7.984794] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[8.018272] (-) TimerEvent: {}
+[8.020961] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[8.059231] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[8.095317] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[8.118358] (-) TimerEvent: {}
+[8.130583] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[8.175259] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[8.216861] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[8.218426] (-) TimerEvent: {}
+[8.254391] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[8.290288] (robot_description) StdoutLine: {'line': b'-- Installing: /root/workspaces/my_robot_ws/install/robot_description/share/robot_description/package.xml\n'}
+[8.318545] (-) TimerEvent: {}
+[8.340542] (robot_description) CommandEnded: {'returncode': 0}
+[8.418639] (-) TimerEvent: {}
+[8.518863] (-) TimerEvent: {}
+[8.619091] (-) TimerEvent: {}
+[8.662197] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[8.674905] (-) EventReactorShutdown: {}
